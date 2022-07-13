@@ -1,0 +1,498 @@
+/*common part*/
+body{
+	margin: 0;
+
+   font-family: 'Bebas Neue', cursive;
+   font-size: 16px;
+   font-weight: 400;
+   color: #3d2514;
+}
+/*common part ends*/
+
+
+/*header start*/
+
+header{
+	height: 900px;
+    position: relative;
+    top: 0;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;}
+
+
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+	/*top: 48px;*/
+	/*width: 20%;*/
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+	padding-top: 15px;
+}
+
+
+/*nav menu starts*/
+.menu{
+	 width: 70%;
+	 float: right;
+}
+.menu ul{
+	margin-top: 45px;
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	font-size: 25px;
+/*	word-spacing: 30px;*/
+	
+}
+.menu ul li a{
+ text-decoration: none ;
+/* word-spacing: 30px;*/
+ margin: 0 50px;
+ color: #42200B;
+ text-decoration: none ;
+ text-transform: uppercase;
+/* border-bottom: 1px solid transparent;*/
+}
+
+/*.menu ul li a: hover{
+	border-bottom: 1px solid #42200B;
+
+}
+*/
+
+/*nav menu ends*/
+
+.menu1{
+	margin-top: 22%;
+	width: 90%;
+}
+.menu1 p{
+	margin: 0;
+	display: inline-block;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 26px;
+	border: 2.5px dashed brown;
+	padding: 11px;
+}
+.menu1 h1{
+	/*margin: 7% 0 0;*/
+	margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 114px;
+    font-weight: 900;
+    text-shadow: 0px 7px #ffffff;
+}
+.menu1 h2{
+	margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 0px 7px #ffffff;
+}
+
+.delivery
+{   
+   display: block;
+   width: 18%;
+  float: right;
+  margin-top: 8px;
+}
+.logo2
+{   float: left;
+    width: 18%;
+}
+.logo2 img
+{
+    width: 100%;
+}
+.del{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px;
+    font-weight: bold;
+    word-spacing: 5px;
+    float: right;
+    margin-top: 10px;
+    
+
+}
+
+
+
+
+
+/*header ends*/
+
+/*service start*/
+
+.service{
+	margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.content1{
+ width: 1243px;
+/* overflow: hidden;*/
+/* height: 423px;*/
+
+}
+.position{
+  width: 45%;
+  float: left;
+  
+}
+
+
+
+
+.c_img img{
+
+
+	height: 100%;
+	width: 100%;
+	float: left;
+	
+}
+
+.right1{
+	width:45%;
+    float: right;
+    
+}
+
+.c_img2{
+
+    float: right;
+    height: 100%;
+    width: 100%;
+    margin-right: 30px;
+}
+
+
+.right2{
+	width:45%;
+    float: right;
+    
+}
+
+.c_img3{
+ /*   margin-top: 10px;*/
+    margin-right: 30px;
+    float: right;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+/*service ends*/
+
+/*heading start*/
+
+.headline{
+	text-align: center;
+}
+.headline h2{
+	display: inline-block;
+	font-size: 25px;
+	margin-bottom: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: #FFC234;
+    
+}
+
+.headline h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 40px;
+	margin: 0;
+	top: 0;
+}
+.headline p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #785F52;
+}
+
+
+
+
+
+/*heading ends*/
+
+
+
+
+/*order start*/
+
+
+
+.container2 {
+     margin: 70px;
+ /*   margin-right: 90px;*/
+    width: 90%;
+    overflow: hidden;
+}
+
+.single {
+    overflow: hidden;
+    float: left;
+    width: 32%;
+    position: relativess;
+    text-align-last: center;
+
+
+ }
+
+ .single h2{
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #42200B;
+    text-align: center;
+    margin-top: 0;
+ }
+.single p{
+	margin: 0 31px;
+    text-align: center
+    margin-top: 0;
+
+}
+
+
+
+.single button{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 7px 7px;
+	border-radius: 2px;
+    background-color: red;
+    border: none;
+
+
+}
+
+.single img{
+	width: 100%;
+
+}
+.ob1 img{
+	width: 68%;
+}
+   
+/*order ends*/
+
+
+
+/*event start*/
+
+.event {
+    width: 90%;
+    margin: 0 auto;
+    /*margin-bottom: 100px;*/
+}
+
+.container3{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 12px 4px 21px #888888;
+    overflow: hidden;
+    margin-top: 90px;
+    margin-bottom: 10px
+
+
+
+
+
+
+}
+ .news{
+    width: 90%;}
+   
+.left_news
+{  
+    width: 35%;
+    float: left;
+    padding: 40px 0;
+    padding-left: 46px;
+    
+ }
+ .left_news p{
+
+ 	font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #3d3d3d;
+ }
+
+.left_news h2{
+	 
+
+    font-size: 30px;
+    font-weight: 400;
+    color: #42200B;
+ 
+}
+ 
+
+.left_news h1{
+	 
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #42200B;
+ 
+}
+
+.right_news
+{
+    /*margin: 0;*/
+	float: right;
+    width: 55%;
+    height: 55%;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+.right_news img 
+{   
+	width: 100%;
+	height: 100%;
+}
+/*event ends*/
+
+
+/*reservation start*/
+
+
+.form{
+    background-image: url(../images/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container4{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.form1{
+ 
+    padding-top: 140px;
+    text-align: center;}
+
+
+ .form1 p{
+ 	font-family: 'Bebas Neue', cursive;
+ 	font-size: 30px;
+ }
+
+ .form1 h1{
+
+ 	font-family: 'Alfa Slab One', cursive;
+    font-size: 45px;
+ }
+    
+
+.form2{
+	margin-left:250px;
+}
+
+form input {
+	font-size: 26px;
+    margin-bottom: 32px;
+    margin-right: 29px;
+    padding: 11px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+form button {
+
+	font-family: 'Alfa Slab One', cursive;
+    padding: 16px 122px;
+    font-size: 15px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+/*reservation ends*/
+
+
+
+
+
+/*footer start*/
+.container4{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+
+
+}
+
+.footer1{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    height: 525px;
+    padding-top: 86px;
+    padding-left: 32px;
+    background-image: url(../images/foot.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.left{
+	margin-left: 40px;
+    width: 43%;
+    float: left;
+}
+.f_img{
+	margin-bottom: 35px;
+    width: 70%;
+    color: white;}
+
+.p1{
+
+ 	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: white;
+    line-height:2;
+}
+.right{
+	margin-top: 180px;
+    width: 30%;
+    float: right;
+}
+
+.p4{
+
+margin-top: 100px;
+
+float: left;
+}
+
+/*footer ends*/
